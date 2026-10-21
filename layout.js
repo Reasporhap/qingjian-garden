@@ -727,12 +727,12 @@ export const layout = {
     "s1Detail": {
       "position": [
         9.55,
-        2.3,
+        1.36,
         -4.2
       ],
       "target": [
         9,
-        2.32,
+        1.38,
         -3.3
       ],
       "fovDeg": 36
