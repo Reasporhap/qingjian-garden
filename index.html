@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>清涧园 - 清涧日出</title>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #111; }
+        canvas { display: block; }
+        #ui { position: absolute; top: 10px; left: 10px; color: white; font-family: sans-serif; z-index: 100; }
+    </style>
+</head>
+<body>
+    <div id="ui">清涧园 - 正在播放 30 秒画面...</div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
